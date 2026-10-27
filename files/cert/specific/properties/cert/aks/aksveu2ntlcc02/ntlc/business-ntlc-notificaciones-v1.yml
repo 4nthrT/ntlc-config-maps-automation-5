@@ -1,0 +1,12 @@
+# business-ntlc-notificaciones-v1 . ambiente cert
+# La api-key del proveedor SMS NO va aqui: llega desde HashiCorp Vault.
+notificaciones:
+  reintentos: 3
+  timeout-ms: 10000
+  sms:
+    habilitado: true
+    proveedor-url: https://sms-cert.notiplus.pe
+
+logging:
+  level:
+    com.nttdata: INFO

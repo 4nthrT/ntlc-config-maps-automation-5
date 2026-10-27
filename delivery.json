@@ -1,0 +1,38 @@
+{
+  "dev": [
+    {
+      "propertyType": "specific",
+      "propertySubType": "properties",
+      "clusterType": "aks",
+      "clusterName": "aksveu2ntlcd02",
+      "files": [
+        "business-ntlc-notificaciones-v1.yml"
+      ],
+      "action": "replace"
+    }
+  ],
+  "cert": [
+    {
+      "propertyType": "specific",
+      "propertySubType": "properties",
+      "clusterType": "aks",
+      "clusterName": "aksveu2ntlcc02",
+      "files": [
+        "business-ntlc-notificaciones-v1.yml"
+      ],
+      "action": "replace"
+    }
+  ],
+  "prod": [
+    {
+      "propertyType": "specific",
+      "propertySubType": "properties",
+      "clusterType": "aks",
+      "clusterName": "aksveu2ntlcp02",
+      "files": [
+        "business-ntlc-notificaciones-v1.yml"
+      ],
+      "action": "replace"
+    }
+  ]
+}
